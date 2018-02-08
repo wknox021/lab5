@@ -5,6 +5,13 @@ $(document).ready(function() {
 	initializePage();
 })
 
+$("changeName").click(function(event){
+	e.preventDefault();
+	var myName = $(this).text().anagrammedName(name);
+	$(this).text(newtext);
+
+})
+
 /*
  * Function that is called when the document is ready.
  */
